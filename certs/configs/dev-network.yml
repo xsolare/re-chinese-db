@@ -1,0 +1,33 @@
+instances:
+  - name: "pgadmin"
+    dns:
+      - "pgadmin.home.io"
+      - "pgadmin.example.io"
+      - "pgadmin"
+      - "pgadmin.db.svc.cluster.local"
+      - "*.svc.cluster.local"
+      - "localhost"
+    ip:
+      - "0.0.0.0"
+      - "127.0.0.1"
+      - "192.168.49.2"
+      - "192.168.1.75"
+  - name: "postgres"
+    dns:
+      - "postgres.home.io"
+      - "postgres.example.io"
+      - "pg.home.io"
+      - "pg.example.io"
+      - "postgres"
+      - "postgres.db.svc.cluster.local"
+      - "postgres.default.svc.cluster.local"
+      - "postgres-ext"
+      - "postgres-ext.db.svc.cluster.local"
+      - "postgres-ext.default.svc.cluster.local"
+      - "*.svc.cluster.local"
+      - "localhost"
+    ip:
+      - "0.0.0.0"
+      - "127.0.0.1"
+      - "192.168.49.2"
+      - "192.168.1.75"
