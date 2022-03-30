@@ -45,7 +45,7 @@ openssl s_client -connect 0.0.0.0:5432 -starttls postgres
 ##### Connect to Postgres with psql and require tls encryption
 
 ```bash
-psql --set=sslmode=require -h 0.0.0.0 -p 5432 -U postgres -d mydb
+psql --set=sslmode=require -h 0.0.0.0 -p 5432 -U postgres -d re_chinese
 ```
 
 #### pgadmin4

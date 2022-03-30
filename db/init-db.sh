@@ -77,7 +77,7 @@ function init_db() {
     # v2 need to support flexible db name
     var_use_db_name="${POSTGRES_DB_NAME}"
     if [[ "${var_use_db_name}" == "" ]]; then
-        var_use_db_name="mydb"
+        var_use_db_name="re_chinese"
     fi
     yellow "please enter the postgres user password to apply the sql file ${var_use_sql_file} to the db: ${var_use_db_name}" 
     var_command="psql --set=sslmode=require -h localhost -p 5432 -U postgres -d ${var_use_db_name} -f ${var_use_sql_file}"

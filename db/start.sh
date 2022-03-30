@@ -18,3 +18,5 @@ echo "docker-compose -f ${var_compose} up -d"
 docker-compose -f "${var_compose}" up -d
 
 exit 0
+
+
