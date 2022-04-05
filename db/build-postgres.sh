@@ -9,7 +9,7 @@ if [[ ! -e ./postgres/tls/postgres ]]; then
 fi
 
 # relative to ./docker/db
-cp ../../certs/tls/postgres/* ./postgres/tls/postgres/
+cp ../certs/tls/postgres/* ./postgres/tls/postgres/
 
 cd postgres || return
 

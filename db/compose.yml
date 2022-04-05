@@ -12,7 +12,7 @@ services:
       POSTGRES_PASSWORD: postgres
     volumes:
       # - ./sql/ssl.sql:/docker-entrypoint-initdb.d/ssl.sql
-      - ./sql/sql_setup.sh:/docker-entrypoint-initdb.d/sql_setup.sh
+      # - ./sql/sql_setup.sh:/docker-entrypoint-initdb.d/sql_setup.sh
       - ./data-postgres:/var/lib/postgresql/data
       - ./etc/localtime_us_eastern:/etc/localtime
       - ./etc/timezone_us_eastern:/etc/timezone
